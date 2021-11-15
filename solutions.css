@@ -72,3 +72,22 @@
     filter: grayscale(100%) blur(15px);
     transform: scale(1.5, 1.5);
 }
+
+/* Esercizio 10 */
+.ex-10-icon {
+    animation: ruota 2s linear infinite;
+}
+@keyframes ruota {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(350deg);}
+}
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+    animation: ruota2 2s linear forwards;
+}
+@keyframes ruota2 {
+    0% {transform: rotate(0deg);}
+    90% {transform: rotate(270deg);}
+    100% {transform: rotate(0deg);}
+}
