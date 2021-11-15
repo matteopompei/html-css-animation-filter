@@ -5,3 +5,38 @@
 .ex-1-square:hover {
     background-color: red;
 }
+
+/* Esercizio 2 */
+.ex-2-square {
+    transition: 3s;
+}
+.ex-2-square:active {
+    transform: scale(5, 3);
+}
+
+/* Esercizio 3 */
+.ex-3-square {
+    transition: 3s;
+}
+.ex-3-square:hover {
+    border-radius: 100%;
+}
+
+/* Esercizio 4 */
+.ex-4-square {
+    transition: 3s;
+}
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/* Esercizio 5 */
+.ex-5-square {
+    transition: 3s;
+}
+.ex-5-square:hover {
+    transform: scale(1.5, 1.5);
+}
+.ex-5-square:active {
+    transform: scale(0.5, 0.5)
+}
